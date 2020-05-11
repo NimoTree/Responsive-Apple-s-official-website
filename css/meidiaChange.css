@@ -1,0 +1,101 @@
+@media only screen and (max-width:1100px ){
+	body .banner1 {
+		height: 694px;
+	}
+	body .banner2 {
+		height: 694px;
+	}
+	body .banner3{
+		height: 694px;
+	}
+	
+	.banner{
+		height: 534px !important;
+		z-index: 4;
+		position: absolute;
+		
+	}
+	.footer .content{
+		height: auto;
+		width: auto;
+	}
+	
+	
+}
+@media only screen and (max-width:740px) {
+	.banner{
+		height: 545px !important;
+		background-size: 80%;
+	}
+	
+	.banner1,.banner2,.banner3{
+		height: 560px !important;
+		background-size: auto;
+	}
+	.hBanner,.hBanner2,.hBanner3{
+		display: block;
+	}
+	.hBanner .banner,.hBanner1 .banner,.hBanner3 .banner{
+		width: 100%;
+	}
+	.banner1{
+		background-image: url(../img/banner1ti.jpg) !important;
+	}
+	.footer .content{
+		height: auto;
+		width: auto;
+	}
+	.footer .proList{
+		display: flex;
+		flex-direction: column;
+		justify-content:left;
+		
+	}
+	
+	.footer ul span{
+		height: auto;
+	}
+	.footer .proList .col{
+		width: auto;
+		position: relative;
+	}
+	.footer .proList .col ul .bone{
+		position: relative;
+	}
+	.footer .proList .col ul{
+		height: 20px;
+		color: #86868b;
+		
+	}
+	.footer .proList .col .bone{
+		color: #86868b;
+	}
+	
+	.footer .proList .col ul li a{
+		position: absolute;
+		display: none;
+		
+	}
+	.footer .proList .col .line{
+		display: block;
+		background-color:#86868b;
+		height: 1px;
+		margin: 5px auto;
+	}
+	.footer .proList .col .list{
+		position: relative;
+	}
+	.footer .proList .col .list .plus{
+		display: block;
+		position: absolute;
+		right: 0;
+		top: -5px;
+	}
+	.footer .inf .mix{
+		display: block;
+		
+	}
+	.footer .inf .mix ul li:nth-child(1){
+		padding: 0 ;
+	}
+}

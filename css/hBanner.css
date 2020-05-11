@@ -1,0 +1,91 @@
+.hBanner{
+	display: flex;
+	
+}
+.hBanner .banner{
+	background-color: #ccc;
+	flex:1;
+	height:445px;
+	position: relative;
+}
+.hBanner .link a{
+			font-family: "SF Pro Icons";
+		    color:  #06c;
+			text-decoration: none;
+}
+.hBanner .link a:hover{
+			
+			text-decoration: underline;
+}
+
+.hBanner .banner:nth-child(1){
+	height:624px;
+	background-color: #000000;
+	margin: 10px 5px 10px 10px;
+	background-image: url(../img/banner5.jpg);
+	background-position: center bottom;
+	background-size: auto ;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	overflow: hidden;
+	
+}
+.hBanner .banner:nth-child(1) h1{
+		font-size: 21px;
+	    line-height: 1.2381;
+	    font-weight: 400;
+	    letter-spacing: .016em;
+		color: #f5f5f7;
+		margin: 0px auto;
+}
+.hBanner .banner:nth-child(1) .top{
+	width: 430px;
+	height:137px;
+	background-image: url(../img/banner4.png);
+	background-position: center top;
+	background-size: auto;
+	background-repeat: no-repeat;
+	margin: 40px auto 0 auto;
+}
+.hBanner .banner:nth-child(1) .link{
+	margin: 5px auto 0 auto;
+}
+
+
+.hBanner .banner:nth-child(2){
+	height:624px;
+	background-color: #fbfbfd;
+	margin: 10px 5px 10px 10px;
+	background-image: url(../img/bannerwatch.jpg);
+	background-position: center bottom;
+	background-size: auto ;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+}
+.hBanner .banner:nth-child(2) .top{
+	width: 430px;
+	height:60px;
+	background-image: url(../img/banner6.png);
+	background-position: center top;
+	background-size: auto ;
+	background-repeat: no-repeat;
+	margin: 40px auto 0 auto;
+}
+.hBanner .banner:nth-child(2) h1{
+	font-size: 21px;
+	line-height: 1.2381;
+	font-weight: 400;
+	letter-spacing: .016em;
+	color: black;
+	margin: 0 auto;
+}
+.hBanner .banner:nth-child(2) .link{
+	margin: 5px auto 0 auto;
+}
+.hBanner .banner:nth-child(2) .link a:nth-child(2){
+	margin-left: 10px;
+}

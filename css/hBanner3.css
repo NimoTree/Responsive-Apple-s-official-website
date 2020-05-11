@@ -1,0 +1,99 @@
+.hBanner3{
+	display: flex;
+	
+}
+.hBanner3 .banner{
+	background-color: #ccc;
+	flex:1;
+	height:445px;
+	position: relative;
+}
+.hBanner3 .link a{
+			font-family: "SF Pro Icons";
+		    color:  #06c;
+			text-decoration: none;
+}
+.hBanner3 .link a:hover{
+			text-decoration: underline;
+}
+
+.hBanner3 .banner:nth-child(1){
+	height:624px;
+	background-color: #fbfbfd;
+	margin: 10px 5px 10px 10px;
+	background-image: url(../img/banner9.jpg);
+	background-position: center bottom;
+	background-size: auto;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	
+}
+.hBanner3 .banner:nth-child(1) .c1{
+	box-sizing: border-box;
+	white-space: nowrap;
+	display: block;
+	color: #bf4800;
+	padding-top: 25px;
+	margin: 0 auto;
+}
+.hBanner3 .banner:nth-child(1) h1{
+			font-size: 32px;
+		    line-height: 1.125;
+		    font-weight: 600;
+		    letter-spacing: .002em;
+			color: black;
+			margin:0 auto 0  auto;
+}
+.hBanner3 .banner:nth-child(1) h2{
+		font-size: 21px;
+	    line-height: 1.2381;
+	    font-weight: 400;
+	    letter-spacing: .016em;
+		color:black ;
+		margin:0 auto 5px auto;
+}
+.hBanner3 .banner:nth-child(1) .link{
+	margin: 5px auto 0 auto;
+}
+.hBanner3 .banner:nth-child(1) .link a:nth-child(2){
+	margin-left: 10px;
+}
+
+
+.hBanner3 .banner:nth-child(2){
+	height:624px;
+	background-color: #fbfbfd;
+	margin: 10px 5px 10px 10px;
+	background-image: url(../img/banner10.jpg);
+	background-position: center bottom;
+	background-size: auto  auto ;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+}
+.hBanner3 .banner:nth-child(2) h1{
+	font-size: 40px;
+	line-height: 1.1;
+	font-weight: 600;
+	letter-spacing: 0em;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	margin: 52px auto 0 auto;
+	color: black;
+}
+.hBanner3 .banner:nth-child(2) h2{
+	font-size: 21px;
+	line-height: 1.2381;
+	font-weight: 400;
+	letter-spacing: .016em;
+	color:black ;
+	margin:0 auto 5px auto;
+}
+.hBanner3 .banner:nth-child(2) .link{
+	margin: 5px auto 0 auto;
+}
+.hBanner3 .banner:nth-child(2) .link a:nth-child(2){
+	margin-left: 10px;
+}
